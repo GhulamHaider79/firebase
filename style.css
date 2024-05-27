@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main,
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(163, 161, 161);
+}
+
+.main .register-container,
+.login-main .login_container {
+    width: 300px;
+    height: 75vh;
+    background-color: rgb(111, 111, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    color: #eeeded;
+
+}
+
+.main .register-container .registration_from, .login_form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+
+
+}
+
+.main .register-container .registration_from input, .login_form input {
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.login-main .login_container{
+    height: auto;
+    padding-bottom: 3rem;
+
+}
