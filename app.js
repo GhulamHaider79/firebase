@@ -40,6 +40,7 @@ const registration = (e) => {
       // Signed up 
       const user = userCredential.user;
       window.location.assign('./login.html');
+      document.querySelector('')
  
     })
     .catch((error) => {

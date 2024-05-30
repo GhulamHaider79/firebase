@@ -35,6 +35,8 @@ body {
 
 }
 
+
+
 .main .register-container .registration_from input, .login_form input {
     height: 1.5rem;
     margin-bottom: 1rem;
@@ -44,3 +46,30 @@ body {
     padding-bottom: 3rem;
 
 }
+.login_profile_container{
+    width: 300px;
+    height: 75vh;
+    background-color: rgb(111, 111, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    color: #eeeded;
+}
+.login_profile_container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    outline: 1px gray;
+}
+
+
+.for_display_none{
+    display: none;
+}
+
+
+
+
+
+
